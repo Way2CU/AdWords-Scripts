@@ -2,13 +2,13 @@
  * Campaign Auto-pause
  *
  * This script will pause all campaigns if their total accumulated spend
- * for the current month.
+ * for the current month is higher than specified.
  *
  * Copyright (c) 2014. by Way2CU, http://way2cu.com
  * Authors: Mladen Mijatov
  */
 
-var LIMIT = 1950;
+var LIMIT = 2000;
 
 function main() {
 	var total_spend = 0;
